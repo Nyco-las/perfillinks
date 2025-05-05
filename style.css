@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background:url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif?cid=ecf05e47hccrp22ei1ifs1140i88nxkbse5iophr9rmc6hx8&ep=v1_gifs_related&rid=giphy.gif&ct=g) repeat top center/cover ;
+    
+}
+body*{
+    font-family:"Cinzel Decorative" ,serif;
+    color: #fff;
+}
+
+#container{
+    width: 360px;
+    margin: 56px auto 0px;
+    
+    
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    
+    
+
+}
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #fff;
+    font-family:"Cinzel Decorative" ,serif;
+    
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16PX;
+    padding: 24px 0;
+
+}
+ul li a{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    font-family:"Cinzel Decorative" ,serif;
+    color: #fff;
+    transition:  transform 0.3s ease;
+    transition: background 0.3s;
+
+}
+ul li a:hover{
+    filter: 3px 2px #fff;
+    border: 1.5px solid #fff;
+    transform: scale(1.1);
+}
+
+
+#icons{
+    color: #fff;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 24px;
+    
+}
+#icons a:hover{
+    background: rgba(255, 255, 255, 0.6);
+    
+    
+}
+    
+
+#icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+    color: #fff;
+    
+}
